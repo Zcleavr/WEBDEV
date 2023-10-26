@@ -1,0 +1,66 @@
+body{
+    background-color: lightblue;
+    font-style: normal;
+}
+.gohome {
+    float: right;
+}
+a:visited {
+    color: royalblue;
+}
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+.header {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    border: 2px;
+    border-bottom: 2px solid black;
+}
+.leftmenu {
+    position: absolute;
+    left: 5px;
+    top: 39px;
+    bottom: 39px;
+    width: 200px;
+    border-right: 2px solid black;
+    text-align: center;
+    padding: 2px;
+}
+.region {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+ul {
+    font-style: normal;
+    font-weight: normal;
+}
+.mainbody {
+    position: absolute;
+    top: 39px;
+    bottom: 39px;
+    left: 219px;
+    width: 500px;
+    padding: 2px;
+    font-weight: bold;
+}
+.footer {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 200px;
+    text-align: center
+}
+.videoalign {
+    position: absolute;
+    left: 600px;
+    top: 39px;
+}
